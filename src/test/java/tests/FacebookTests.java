@@ -16,7 +16,6 @@ import static helpers.Environment.*;
 class FacebookTests extends TestBase {
 
     @Test
-    @Disabled
     @Description("Positive test with testid")
     void successfulLoginWithTestId() {
         open(url);
